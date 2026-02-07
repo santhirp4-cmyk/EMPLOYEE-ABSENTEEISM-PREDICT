@@ -3,8 +3,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-st.title("My First Streamlit App")
-st.write("Welcome! This is my first Streamlit application.")
+st.title("EMPLOYEE ABSENTEEISM PREDICTION")
+st.write("Welcome! This is my Streamlit application.")
 
 name = st.text_input("Enter your name")
 if name:
@@ -19,5 +19,6 @@ chart_data = pd.DataFrame(
 )
 
 st.line_chart(chart_data)
+
 
 
